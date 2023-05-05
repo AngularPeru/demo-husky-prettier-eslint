@@ -1,0 +1,12 @@
+<div class="container">
+	<h1 class="animate__animated animate__jackInTheBox container__title1">Unete a la comunidad!</h1>
+	<h1 class="animate__animated animate__jackInTheBox container__title2">Comparte tus conocimientos</h1>
+	<section class="content">
+		<section class="developers animate__animated animate__fadeInUp">
+			<div class="card" *ngFor="let developer of developers" (click)="clickCard(developer.urlChannel)">
+				<img class="card__image" [src]="developer.photo" [alt]="developer.name" />
+				<span class="card__name">{{ developer.name }} </span>
+			</div>
+		</section>
+	</section>
+</div>
