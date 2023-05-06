@@ -3,6 +3,7 @@ interface IDeveloper {
 	name: any;
 	photo: any;
 	urlChannel: string;
+	channels?: any[];
 }
 
 @Component({
