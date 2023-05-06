@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 interface IDeveloper {
 	name: any;
 	photo: any;
-	urlChannel: any;
+	urlChannel: string;
 }
 
 @Component({
