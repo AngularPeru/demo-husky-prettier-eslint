@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 interface IDeveloper {
-	name: any;
-	photo: any;
+	name: string;
+	photo: string;
 	urlChannel: string;
-	channels?: any[];
+	channelList?: string[];
 }
 
 @Component({
