@@ -25,7 +25,7 @@ export class AppComponent {
 		}
 	];
 
-	clickCard(urlChannel: any): void {
+	clickCard(urlChannel: string): void {
 		window.open(urlChannel, '_blank');
 	}
 }
